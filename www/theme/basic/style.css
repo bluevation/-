@@ -1,0 +1,29 @@
+/* 네이버페이 구매평 */
+.naverpay_review .item_review {position: relative; padding: 20px 0; border-bottom: 1px solid #eaeced;}
+.naverpay_review .item_review.pre_review{cursor: pointer;}
+/* .naverpay_review .item_review.pre_review.is_opened{background-color: #f8f9fb;} */
+.naverpay_review .area_user_review {position: relative; display: table; width: 100%; table-layout: fixed; }
+.naverpay_review .title_review{color: #333; font-weight: 600; font-size: 14px;}
+.naverpay_review .area_star_small {position: relative; z-index: 20; display: inline-block; height: 18px; vertical-align: top;}
+.naverpay_review .blind {overflow: hidden; position: absolute; top: 0; left: 0; width: 1px; height: 1px; font-size: 0; line-height: 0;}
+.naverpay_review .area_star_small .wrap_star{width: 74px; height: 14px; display: inline-block; vertical-align: top;}
+.naverpay_review .number_grade {line-height: 18px; display: inline-block; margin-left: 5px; font-family: verdana, sans-serif; font-size: 14px; color: #333; font-weight: bold; vertical-align: top;}
+.naverpay_review .area_status_user {margin-top: 3px; overflow: hidden; text-overflow: ellipsis; word-break: break-all; display: inline-block; white-space: nowrap; word-wrap: normal; position: relative; z-index: 20; padding-right: 44px; max-width: 100%; vertical-align: top; font-size: 12px; color: #999; line-height: 16px; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.naverpay_review .area_status_user .text_info{white-space: nowrap;}
+.naverpay_review .area_status_user .text_info:before {content: ''; display: inline-block; width: 2px; height: 2px; background-color: #d8d8d8; vertical-align: top; margin: 6px 5px 0 4px;}
+.naverpay_review .area_status_user .text_option {display: inline;}
+.naverpay_review .review_text {overflow: hidden; text-overflow: ellipsis; word-break: break-all; display: inline-block;/*  display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; */ line-height: 21px; /* max-height: 105px; */ margin-top: 10px; font-size: 13px; color: #5f5f5f; word-break: break-word;}
+.naverpay_review .review_text.is_opened{display:none;}
+.naverpay_review .review_text img {width:480px; height:auto; padding-top: 15px;}
+.naverpay_review .review_text_box {display:none;}
+.naverpay_review .is_opened .review_text_box {display:block;}
+.naverpay_review .cell_text {display: table-cell; vertical-align: top;}
+.naverpay_review .cell_thumbnail {padding: 0 20px; width: 90px; display: table-cell; vertical-align: middle;}
+.naverpay_review .area_cell_thumbnail {display: block; position: relative; height: 90px; overflow: hidden;}
+.naverpay_review .area_cell_thumbnail.is_opened{display:none;}
+.naverpay_review .area_cell_thumbnail img {position: absolute; top: 0; left: 0; width: 100%; height: auto; margin: auto; }
+.naverpay_review .area_cell_thumbnail.w_bigger img {position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: auto; height: 100%; margin: auto;}
+.naverpay_review .area_cell_thumbnail.h_bigger img {position: absolute; top: 50%; left: 0; transform: translateY(-50%); width: 100%; height: auto; margin: auto;}
+
+
+
